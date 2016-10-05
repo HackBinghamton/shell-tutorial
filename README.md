@@ -15,10 +15,10 @@ shell: `cat *.txt > newfile.txt`.
 ## Where Is The Terminal?
 
 ### Mac OS
-1) Open Finder from the Dock.
-2) Open your Applications folder.
-3) Open Utilities.
-4) Double click on Terminal.
+1. Open Finder from the Dock.
+2. Open your Applications folder.
+3. Open Utilities.
+4. Double click on Terminal.
 
 ### Ubuntu
 Hit the keyboard shortcut Ctrl - Alt - T.
