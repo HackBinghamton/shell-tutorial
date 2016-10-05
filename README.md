@@ -29,3 +29,7 @@ Hit the keyboard shortcut Ctrl - Alt - T.
 Windows also has a built-in terminal, Command Prompt; however, Command
 Prompt differs greatly from the terminals on Mac and Linux. So you will
 need to install a terminal with the same features.
+
+In the next workshop, we will be learning the basics of git. Since Git
+for Windows comes with a shell Git BASH, we recommend that you install it.
+You can get it [here.](https://git-for-windows.github.io/)
