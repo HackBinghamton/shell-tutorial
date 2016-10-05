@@ -10,7 +10,9 @@ sometimes command line interfaces (CLIs) are the better tool for the job.
 As an example, imagine you have a messy folder, and you want to combine
 all the .txt files into a new file called "newfile.txt". If you use a
 GUI, this seems like a tedious task, but it only takes one line in the
-shell: `cat *.txt > newfile.txt`.
+shell.
+    
+    cat *.txt > newfile.txt
 
 ## Where Is The Terminal?
 
