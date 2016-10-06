@@ -35,9 +35,15 @@ for Windows comes with a shell Git BASH, we recommend that you install it.
 You can get it [here.](https://git-for-windows.github.io/)
 
 ## Moving Around
-Navigating folders in a GUI, you often see folders arranged like this:
+Folders (often called *directories*) on your computer are arranged in a
+tree structure. A folder within another folder is called a *subdirectory*.
+There is a folder called the *root directory* that contains all of the
+computer's files and folders within its subdirectories.
+You often see these directories arranged like this:
 
 ![Directory Tree](tree.png)
+
+
 ## Listing Directories
 ## Copying Files
 ## Making and Deleting Folders
