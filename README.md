@@ -73,5 +73,14 @@ but in Bash it will look like 'c/Users/USERNAME' because on Mac/Linux, folders
 are seperated with a forward slash instead of a backslash.
 
 ## Copying Files
+
+Creating a copy of a file can be done with the `cp` command.
+To make a copy of myfile.txt, enter `cp myfile.txt myfile-copy.txt`.
+You can also use `cp` to copy files into a folder.
+For example, to copy files into an already created folder, you can type
+`cp myfile.txt myfile-copy.txt myfolder`.
+Notice that you can type multiple file names, and they'll all be moved into
+the last thing (myfolder in this instance).
+
 ## Making and Deleting Folders
 ## Moving & Renaming Files
