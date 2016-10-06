@@ -82,15 +82,37 @@ For example, to copy files into an already created folder, you can type
 Notice that you can type multiple file names, and they'll all be moved into
 the last thing (myfolder in this instance).
 
-## Making and Deleting Folders
+## Making and Removing Folders
 
+### Making
 The previous section assumed you had a folder already created, but what if you
 wanted to make it from terminal?
 The `mkdir` command stands for MaKe DIRectory, and all you have to do is type
 `mkdir myfolder` to create a folder in your working directory.
+
+### Removing
 To delete folders, use `rmdir` which stands for ReMove DIRectory.
 If you want to remove myfolder, just type `rmdir myfolder`.
 This command won't work if there's files or folders inside of myfolder though,
 so make sure you have nothing inside myfolder.
 
 ## Moving & Renaming Files
+
+### Moving
+We might also want to be able to move folders and files to other places instead of
+only making copies.
+The `mv` command (MoVe) lets you do that, and it works just like `cp`.
+To move myfile.txt into myfolder, type `mv myfile.txt myfolder/`.
+Notice the `/` after myfolder, it's there because myfolder is a
+directory and not a normal file.
+Putting a `/` after directory names is a good idea because the shell will refuse
+to move something into a nonexistent directory.
+The `/` at the end forces your shell to look for a directory with that name.
+
+### Renaming
+
+You can also use `mv` to give files new names.
+To rename myfile.txt to otherfile.txt, type `mv myfile.txt otherfile.txt`.
+There's no `/` on the end because we aren't moving myfile.txt into a directory,
+we're just giving it a new name.
+Be careful using `mv`, it will overwrite the otherfile.txt even if it exists.
