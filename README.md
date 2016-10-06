@@ -37,7 +37,7 @@ Prompt's shell differs greatly from the shells on Mac and Linux. So you will
 need to install a shell
 
 In the next workshop, we will be learning the basics of git. Since Git
-for Windows comes with a version of BASH (the shell on Mac and Linux),
+for Windows comes with a version of Bash (the shell on Mac and Linux),
 we recommend that you install it.
 You can get it [here.](https://git-for-windows.github.io/)
 
@@ -61,11 +61,16 @@ find the same information, but you need to know some commands.
 ## Print Working Directory and List
 In the last picture, we were in '/' (the root directory). We call your currently
 open folder the *working directory*. In a GUI, you can see the working directory
-in the navigation bar; in a terminal you find it with the command `pwd`. This command,
-pwd, is an abbreviation for "Print Working Directory". Open a terminal, type `pwd` and
-press Enter. You should see something like this:
+in the navigation bar; in a terminal you find it with the command `pwd`. This command
+is an abbreviation for "Print Working Directory". Open a terminal, type `pwd` and
+press Enter. You should see the path to your home directory:
 
 ![Print Working Directory](pwd.png)
+
+Note that on Windows your home directory path is usually 'C:\Users\<USERNAME>',
+but in Bash it will look like 'c/Users/<USERNAME>' because on Mac/Linux, folders
+are seperated with a forward slash instead of a backslash.
+
 ## Copying Files
 ## Making and Deleting Folders
 ## Moving & Renaming Files
