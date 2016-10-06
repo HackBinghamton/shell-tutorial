@@ -67,8 +67,8 @@ press Enter. You should see the path to your home directory:
 
 ![Print Working Directory](pwd.png)
 
-Note that on Windows your home directory path is usually 'C:\Users\<USERNAME>',
-but in Bash it will look like 'c/Users/<USERNAME>' because on Mac/Linux, folders
+Note that on Windows your home directory path is usually 'C:\Users\USERNAME',
+but in Bash it will look like 'c/Users/USERNAME' because on Mac/Linux, folders
 are seperated with a forward slash instead of a backslash.
 
 ## Copying Files
