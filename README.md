@@ -58,7 +58,8 @@ It is easy to see which folders are parents, which are subdirectories, and
 which folders are in the same directory. When you open a terminal, you can
 find the same information, but you need to know some commands.
 
-## Print Working Directory and List
+## Navigating Directories
+
 In the last picture, we were in '/' (the root directory). We call your currently
 open folder the *working directory*. In a GUI, you can see the working directory
 in the navigation bar; in a terminal you find it with the command `pwd`. This command
