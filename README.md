@@ -36,6 +36,7 @@ You can get it [here.](https://git-for-windows.github.io/)
 
 ## Moving Around
 Navigating folders in a GUI, you often see folders arranged like this:
+
 ![Directory Tree](tree.png)
 ## Listing Directories
 ## Copying Files
