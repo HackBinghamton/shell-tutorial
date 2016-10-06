@@ -72,6 +72,11 @@ Note that on Windows your home directory path is usually 'C:\Users\USERNAME',
 but in Bash it will look like 'c/Users/USERNAME' because on Mac/Linux, folders
 are seperated with a forward slash instead of a backslash.
 
+## Viewing Directory Contents
+
+To view what's inside a directory, type `ls mydirectory`.
+If you just want to see what's inside your working directory, just type `ls`.
+
 ## Copying Files
 
 Creating a copy of a file can be done with the `cp` command.
@@ -116,3 +121,16 @@ To rename myfile.txt to otherfile.txt, type `mv myfile.txt otherfile.txt`.
 There's no `/` on the end because we aren't moving myfile.txt into a directory,
 we're just giving it a new name.
 Be careful using `mv`, it will overwrite the otherfile.txt even if it exists.
+
+## Advanced Shell Topics
+
+As you get more and more familiar with the terminal, you'll find that certain
+tasks are far less manual than in a normal file explorer.
+There's an inconceivable amount of command combinations you can use
+in the shell, so understanding the fundamentals of basic commands will help
+you understand command combinations, and even craft your own.
+
+One of the quickest ways to learn about commands is to read the manual pages.
+You can quickly get to the manual page of a command by typing `man command`
+in terminal.
+Manual pages are also available on [the internet](https://linux.die.net).
