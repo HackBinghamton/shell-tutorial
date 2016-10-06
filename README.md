@@ -83,4 +83,14 @@ Notice that you can type multiple file names, and they'll all be moved into
 the last thing (myfolder in this instance).
 
 ## Making and Deleting Folders
+
+The previous section assumed you had a folder already created, but what if you
+wanted to make it from terminal?
+The `mkdir` command stands for MaKe DIRectory, and all you have to do is type
+`mkdir myfolder` to create a folder in your working directory.
+To delete folders, use `rmdir` which stands for ReMove DIRectory.
+If you want to remove myfolder, just type `rmdir myfolder`.
+This command won't work if there's files or folders inside of myfolder though,
+so make sure you have nothing inside myfolder.
+
 ## Moving & Renaming Files
