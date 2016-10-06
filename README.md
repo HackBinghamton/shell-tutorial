@@ -129,6 +129,7 @@ tasks are far less manual than in a normal file explorer.
 There's an inconceivable amount of command combinations you can use
 in the shell, so understanding the fundamentals of basic commands will help
 you understand command combinations, and even craft your own.
+If you'd like to see some interesting commands, check out [command line fu](http://commandlinefu.com).
 
 One of the quickest ways to learn about commands is to read the manual pages.
 You can quickly get to the manual page of a command by typing `man command`
