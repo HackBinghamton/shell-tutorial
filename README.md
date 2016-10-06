@@ -1,6 +1,6 @@
 # The Terminal and Shell
-Today we will be covering the basics of using a computer from the
-terminal. You will learn how to navigate folders, and how to make, 
+This guide covers the basics of using a computer from the
+terminal. You will learn how to navigate folders, and how to make,
 delete, copy, and move files and folders.
 
 People often confuse the terminal and the shell, since the difference
