@@ -35,7 +35,8 @@ for Windows comes with a shell Git BASH, we recommend that you install it.
 You can get it [here.](https://git-for-windows.github.io/)
 
 ## Moving Around
-When you open the terminal, you are in your home folder: /home/<username> (on Windows: C:\Users\<username>)
+Navigating folders in a GUI, you often see folders arranged like this:
+![Directory Tree](tree.png)
 ## Listing Directories
 ## Copying Files
 ## Making and Deleting Folders
